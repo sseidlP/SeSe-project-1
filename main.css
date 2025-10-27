@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: 'Times New Roman', Times, serif
+}
+
+a{ 
+    color: black;
+    text-decoration: none;
+}
+img {
+    margin-left: center;
+    display: block;
+    margin: 7px;
+    width: 505%;
+    margin-left: -53%;
+    margin-right: -53%;
+}
+
+nav{
+    width: 60px;
+    display: flex;
+    margin-left: 350px;
+    margin-right: auto;
+}
+
+/* END OF RESET*/ 
+
+footer {
+    display: flex;
+    margin-left: 700px;
+    top: 50px;
+
+}
+footer img {
+     top: 200px;
+     padding: 13px;
+}
+
+  /*NAVIGATION*/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(173, 223, 220);
+  overflow: hidden;
+  margin-top: -50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #123037;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 20px;
+  margin-left: 200px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: rgb(173, 223, 220);
+}
+
+
+/* Add a color to the active/current link */
+.topnav a.hover {
+  background-color: #ffffff;
+  color: #3f5356
+}
+/*END OF NAV.*/
+
+
+h1 {
+    text-align: center;
+    font-family: "garamond-atf-micro", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2{
+    font-family: "garamond-atf-micro", serif;
+    padding: 120px 17px;
+    font-size: 20px;
+}
+h3{
+    font-family: "garamond-atf-micro", serif;
+    font-size: 20px;
+    margin-left: 249.5px;
+}
+h4{
+    text-align: center;
+    font-family: "garamond-atf-micro", serif;
+    font-weight: 600;
+    font-style: normal;
+    color:lightseagreen;
+    font-size: xx-large;
+}
+h5 {
+    font-size: 20px;
+    font-family:"garamond-atf-micro", serif;
+    margin-inline-start: 300px;
+}
+h6 {
+     font-size: 20px;
+    font-family:"garamond-atf-micro", serif;
+    margin-inline-start: 350px;
+}
+p{
+   padding: 10px;
+   margin-left: 87px;
+}
+input{
+    padding: 12px; 
+    height: 10px;
+    margin-top: 5.2%;
+    margin-left: 87px;
+}
+.hero {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+}
+hr.solid {
+  border-bottom: 7px solid #bbb;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+hr {
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+a{
+    object-position: center;
+}
+.column a:hover{
+   color:rgb(173, 223, 220);
+}
